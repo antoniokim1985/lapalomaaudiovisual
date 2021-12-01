@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;800&family=Space+Mono&display=swap');
+
+*{
+    font-family: 'Inconsolata', monospace;
+}
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 1em;
+}
+
+
+nav div a h3, body div a h3, body div a h4{
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+}
+
+
+.contenedor_full {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.contenedor_full iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.contenedor {
+    position: relative;
+
+    width: 50%;
+    padding-bottom: 28.125%; /* 16:9 */
+    height: 0;
+}
+.contenedor iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.venintiuno{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.obra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 20px 0px;
+    text-decoration:none;
+        
+}
+
+.obra h3, .obra h4{
+    color: black;
+    text-align: center;
+}
+.obra h3:link{
+    color: black;
+}
+
+
+.obra h3:visited, .obra h4:visited{
+    color: black;
+}
+
+.obra h3:hover, .obra h4:hover{
+    color: black;
+}
+
+.obra h3:active, .obra h4:active{
+    color: black;
+}
+
+.imagen{
+    width: 94%;
+}
+
+.veinte{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diecinueve{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 0;
+}
+
+.anho, .titu{
+    margin: 0 1.8% ;
+}
+
+
+h3{
+    
+    font-family: 'Space Mono', monospace;
+    border: 5% 0;
+    font-weight: 900;
+
+}
+h4{
+
+    border: 0.5% 0;
+}
+
+.titu div{
+    margin: 2% 0;
+}
+
+.titu h4, .titu h4 iframe{
+    margin: 2% 0;
+}
+
+.centro{
+    margin-top: 14%;
+}
